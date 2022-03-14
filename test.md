@@ -7,16 +7,13 @@ title: Testing 1 2 3
 
 {{ page.url }}
 
-Collections...
+Nav
 
-{{ site.collections }}
-
-Iterates {}...
-
- <ul>
-  {% for c in site.collections %}
-  <li> {{c.collection}} </li>
-    
-
-  {% endfor %}
-</ul>
+### Jake's Files
+{% for f in site.jake %}
+ {{f.name}} - {{f.url}}
+{%  endfor %}
+### Ben's Files
+{% for f in site.ben %}
+ {{f.name}} - {{f.url}}
+{%  endfor %}
