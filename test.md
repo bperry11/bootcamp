@@ -14,3 +14,5 @@ title: Testing 1 2 3
  {{f.name}}
  <a href="{{f.url|relative_url}}">{{f.title}} - {{f.url}}</a>
 {%  endfor %}
+
+{{site.pages}}
