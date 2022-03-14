@@ -1,3 +1,7 @@
+---
+title: Search Demo
+---
+
 <form id="myForm" action="https://youtube.com/results" data-ajax="false" onsubmit="submitForm(event)" target="_blank">
   <div class="form-group">
     <label class="form-label" for="query">Search YouTube Here: </label>
