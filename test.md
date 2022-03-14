@@ -4,4 +4,4 @@ title: Testing 1 2 3
 # Testing
 
 {{ site.title }}  
-{{site.collections}}  
+{{site.ben[0].name}}  
