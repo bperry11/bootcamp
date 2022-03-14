@@ -1,6 +1,4 @@
 title: WevDev Bootcamp Files
 collections:
-    ben:
-        output: true
-    jake:
-        output: true
+    - ben
+    - jake
