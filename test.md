@@ -18,6 +18,9 @@ title: Testing 1 2 3
 Collections
 
 {% for c in site.collections %}
- {{c.label}}
-
+ {{c.label}} - <br>
+ {% for f in c.files %}
+  {{f.path}} <br>
+ {% endfor %}
+ <hr>
 {%  endfor %}
