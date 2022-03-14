@@ -11,3 +11,12 @@ Collections...
 
 {{ site.collections }}
 
+Iterate...
+
+ <ul>
+  {% for c in site.collection %}
+  <li> c.collection </li>
+    
+
+  {% endfor %}
+</ul>
