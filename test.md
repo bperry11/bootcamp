@@ -7,8 +7,12 @@ title: Testing 1 2 3
 
 {{ page.url }}
 
+Collections...
+
+{{ site.collections }}
+
 Below is the urls...
 
-{% for f in site.ben %}
+{% for c, f in site.collections %}
   {{ f.url }}
 {% endfor %}
