@@ -14,6 +14,6 @@ title: Testing 1 2 3
  <a href="{{f.url|relative_url}}">{{f.title}} - {{f.url}}</a>
 {%  endfor %}
 
-Files:
+Files again:
 
-{{ site.ben.files }}
+{{ site.collections[0].files }}
