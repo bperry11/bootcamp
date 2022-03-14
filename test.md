@@ -20,7 +20,7 @@ Collections with links
 {% for c in site.collections %}
  {{c.label}} - <br>
  {% for f in c.files %}
-  <a href="{{f.path}}">f.name</a> <br>
+  <a href="{{f.path| remove: '_'}}">f.name</a> <br>
  {% endfor %}
  <hr>
 {%  endfor %}
