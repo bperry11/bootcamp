@@ -11,8 +11,3 @@ Collections...
 
 {{ site.collections }}
 
-Below is the urls...
-
-{% for c, f in site.collections %}
-  {{ f.url }}
-{% endfor %}
