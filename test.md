@@ -15,4 +15,9 @@ title: Testing 1 2 3
  <a href="{{f.path|relative_url}}">{{f.name}} - {{f.path}}</a>
 {%  endfor %}
 
-FILES
+Collections
+
+{% for c in site.collections %}
+ {{c.label}}
+
+{%  endfor %}
