@@ -11,9 +11,9 @@ Nav
 
 ### Jake's Files
 {% for f in site.jake %}
- {{f.name}} - {{f.url}}
+ <a href="{{f.url}}">{{f.title}} - {{f.url}}</a>
 {%  endfor %}
 ### Ben's Files
 {% for f in site.ben %}
- {{f.title}} - {{f.url}}
+ <a href="{{f.url}}">{{f.title}} - {{f.url}}</a>
 {%  endfor %}
