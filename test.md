@@ -15,5 +15,5 @@ Nav
 {%  endfor %}
 ### Ben's Files
 {% for f in site.ben %}
- {{f.name}} - {{f.url}}
+ {{f.title}} - {{f.url}}
 {%  endfor %}
