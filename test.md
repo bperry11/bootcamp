@@ -11,11 +11,11 @@ Collections...
 
 {{ site.collections }}
 
-Iterates...
+Iterates {}...
 
  <ul>
   {% for c in site.collections %}
-  <li> c.collection </li>
+  <li> {{c.collection}} </li>
     
 
   {% endfor %}
