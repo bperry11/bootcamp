@@ -5,10 +5,6 @@ title: Testing 1 2 3
 
 {{ site.title }}   
 
-{{ page.url }}
-
-Nav
-
 ### Jake's Files
 {% for f in site.jake %}
  <a href="{{f.url|relative_url}}">{{f.title}} - {{f.url}}</a>
