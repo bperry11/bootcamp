@@ -1,4 +1,6 @@
-
+---
+title: Form demo
+---
         <section>
             <form>
               <label for="name">Name: </label?
