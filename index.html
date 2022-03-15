@@ -12,7 +12,7 @@
     <main>
         <section>
             {% for c in site.collections %}
-                {% if c.label != 'post' %}
+                {% if c.label != 'posts' %}
                 <h3>{{c.label}}</h3>
                      {% for f in c.files %}
                         <a href="{{f.path| remove: '_'}}">{{f.name}}</a> <br>
