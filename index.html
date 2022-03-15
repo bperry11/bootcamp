@@ -16,9 +16,11 @@
             {% for c in site.collections %}
                 {% if c.label != 'posts' %}
                 <h3>{{c.label}}</h3>
+                    <ul>
                      {% for f in c.files %}
-                        <a href="{{f.path| remove: '_'}}">{{f.name}}</a> <br>
+                        <li><a href="{{f.path| remove: '_'}}">{{f.name}}</a></li> <br>
                      {% endfor %}
+                    </ul>
                  <hr>
                 {% endif %}
             {%  endfor %}
