@@ -1,4 +1,0 @@
----
-title: Jake
----
-#{{page.title}}
