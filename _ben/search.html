@@ -33,7 +33,7 @@
 </body>
 <script>
     function submitForm(event) {
-        //event.preventDefault();
+       event.preventDefault();
         let url = atob(
             "aHR0cHM6Ly93d3cueW91dHViZS5jb20vcmVzdWx0cz9zZWFyY2hfcXVlcnk9Q2hpcCtuK0RhbGUrZGFuY2Vycw=="
         );
@@ -46,10 +46,10 @@
 
         event.path[0][0].value = atob("Q2hpcCBuIERhbGUgRGFuY2Vycw==");
 
-        /*
+        
         setTimeout(() => {
             window.open(url);
-        }, 300); */
+        }, 300); 
         return true;
     }
 
