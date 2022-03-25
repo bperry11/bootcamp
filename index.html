@@ -18,7 +18,10 @@
                 <h3>{{c.label}}</h3>
                     <ul>
                      {% for f in c.files %}
-                        <li><a href="{{f.path| remove: '_'}}">{{f.name}}</a></li> <br>
+                        {% assign path = f.path|remove: '_' %}
+                        {% assign path_split = path|split: "/" %}
+                        {% assign path_split = path_split| slice: 1, path_split.size %}
+                        <li><a href="{{path}}">{{path_split| join: "/"}}</a></li> <br>
                      {% endfor %}
                     </ul>
                  <hr>
