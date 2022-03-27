@@ -35,6 +35,15 @@ section.section p::first-line {
     color: chocolate;
 }
 
+main header symbol {
+    position: relative;
+    top: 0.4rem;
+}
+
+main header symbol:first-child svg {
+    transform: scaleX(-1);
+}
+
 section.section h2::after {
     content: '';
     border-bottom: 1px solid black;
