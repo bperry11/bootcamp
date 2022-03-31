@@ -68,7 +68,8 @@ button.inline-icon {
 }
 
 button.inline-icon:hover {
-    filter: drop-shadow(2px 4px 4px black);
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 1.0));
+    transition: filter 2s;
 }
 
 button.inline-icon:active {
