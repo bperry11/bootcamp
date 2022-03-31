@@ -69,7 +69,7 @@ button.inline-icon {
 
 button.inline-icon:hover {
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 1.0));
-    transition: filter 2s;
+    transition: filter 0.5s;
 }
 
 button.inline-icon:active {
