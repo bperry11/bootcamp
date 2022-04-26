@@ -9,6 +9,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 main {
@@ -21,6 +23,7 @@ h1 {
 }
 
 nav {
+    margin: 0 1em;
     font-size: 1.5em;
     display: flex;
     justify-content: space-between;
