@@ -37,9 +37,7 @@ body {
 }
 
 div.pricing-table section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
 }
 
 div.pricing-table section:nth-child(even) {
