@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1;
+    font-size: 11px;
+}
+
+.panel {
+    box-sizing: inherit;
+    background-color: white;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 960px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pricing-plan {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+div.pricing-table section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.pricing-table section:nth-child(even) {
+    background-color: #f5faff;
+}
+
+.pricing-plan h2 {
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.pricing-plan ul.pricing-features {
+    list-style: none;
+    margin: 3rem 0 1.3rem;
+    padding: 0;
+    color: #016ff9;
+}
+
+ul.pricing-features li {
+    font-size: .8rem;
+    padding: 1.3rem 0;
+    border-top: 1px solid #e1f1ff;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+ul.pricing-features li:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+img.pricing-img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.pricing-price {
+    font-size: 2rem;
+    color: #016ff9;
+}
+
+a.pricing-button {
+    border: 1px solid #9dd1ff;
+    border-radius: 0.8em;
+    color: #348efe;
+    text-decoration: none;
+    margin: 25px 0;
+    padding: .8em 1.5em;
+    font-size: 1.2rem;
+    transition: background-color 200ms ease-in-out;
+}
+
+.is-featured a.pricing-button {
+    background-color: #48aaff;
+    color: white;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: #e1f1ff;
+  }
+  
+  .is-featured .pricing-button {
+    background-color: #48aaff;
+    color: white;
+  }
+  
+  .is-featured .pricing-button:hover, .is-featured .pricing-button:focus{
+    background-color: #269aff;
+    color: white;
+  }
+
+@media (min-width: 906px) {
+    .panel {
+        flex-direction: row;
+        padding: 20px 25px;
+        
+
+    }
+
+    .pricing-plan {
+        padding: 25px 50px;
+        border-top: 1px solid #9dd1ff;
+        border-bottom: 1px solid #9dd1ff;
+    }
+}
