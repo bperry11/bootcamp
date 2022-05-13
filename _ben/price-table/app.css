@@ -47,6 +47,18 @@ div.pricing-table section:nth-child(even) {
 .pricing-plan h2 {
     color: #888;
     font-size: 1.2rem;
+    position: relative;
+}
+
+.is-featured .pricing-header::after {
+    content: "(Recommended)";
+    display: block;
+    font-size: .8rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: goldenrod;
+    line-height: 1.5;
 }
 
 .pricing-plan ul.pricing-features {
